@@ -1,0 +1,29 @@
+*
+{
+  font-family: calibri;
+
+}
+
+h2
+{
+	color: grey;
+
+ }
+/*Commentaires */
+
+.introduction
+{
+
+	color: grey;
+	font-size: 18px;
+
+
+}
+
+.nomdeboite
+{
+
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 14px;
+}
