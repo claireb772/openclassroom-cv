@@ -1,3 +1,5 @@
+/* Font*/
+
 @font-face {
     font-family: 'ambleregular';
     src: url('fonts/Amble-Regular-webfont.eot');
@@ -15,40 +17,33 @@
   font-family: 'ambleregular', Calibri, Impact, Verdana, Arial, serif;
 }
 
+/* organisation de la page*/
+
+#bloctitre
+{
+
+}
+
+
+
+
+/* apparences*/
+
+#intro
+{
+	font-size: 1.7em;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+
+
+
 h1
 {
 	text-align: center;
 	font-weight: bold;
-
-}
-
-h2
-{
-	color: grey;
-	font-weight: bold;
-
- }
-/*Commentaires */
-
-
-
-.introduction
-{
-
-	font-size: 1.5em;
-	text-align: center;
-	border: 0.15em solid rgb(185,205,229) ;
-	padding: 3px ;
-
-}
-
-.nomdeboite
-{
-
-	font-style: italic;
-	font-weight: lighter;
-	font-size: 1em
-	;
 }
 
 h2
@@ -57,5 +52,34 @@ h2
 	background-color: rgb(191,191,191);
 	padding: 3px;
 	text-align: center;
-
 }
+
+.droite
+{
+	width: 40%;
+}
+
+.gauche
+{
+	width:60%;
+}
+
+
+.introduction
+{
+	font-size: 1.5em;
+	text-align: center;
+	border: 0.15em solid rgb(185,205,229) ;
+	padding: 3px ;
+}
+
+.nomdeboite
+{
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 1em;
+}
+
+
+
+
